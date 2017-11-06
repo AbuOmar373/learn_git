@@ -1,0 +1,32 @@
+ÅäÔÇÁ ÍÓÇÈ 
+git config --global user.name "mamri"
+git config --global user.email "alazdi2007@gmail.com"
+
+ÇáÊÃßÏ ãä ÇáÈíÇäÇÊ:
+git config --list
+
+ãæŞÚ ÇáãÓÇÑ ÇáÍÇáí:
+pwd
+
+ÅäÔÇÁ ãÔÑæÚ ÌÏíÏ:
+git init
+
+ÅÙÇİÉ ÌãíÚ ÇáãáİÇÊ:
+git add .
+
+ÅÖÇİÉ ãáİ áæÍÏå:
+git add README.md
+
+ÅÖÇİÉ ÊÚáíŞ:
+git commit -m "first commit"
+
+ÚÑÖ ÇáÊÚáíŞÇÊ ÇáÓÇÈŞÉ:
+git log
+
+ÚÑÖ ÇáãáİÇÊ ÛíÑ ÇáãÙÇİÉ:
+git status
+
+ÇÓÊÚÑÇÖ Úãá ßÇÊÈ ãÍÏÏ:
+git log --author "mamri"
+
+
