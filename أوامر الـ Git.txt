@@ -30,3 +30,19 @@ git status
 git log --author "mamri"
 
 
+====== github =====
+
+ááÊÍãíá Ãæá ãÑå äĞåÈ ááİæáÏÑ Ëã:
+git clone https://github.com/ww5z/archives.git
+
+áÅÚÇÏÉ áÑİÚ ÇáãáİÇÊ ÈÚÏ ÇáÊÚÏíá:
+git add .
+git commit -m "big updates"
+git push origin master
+Or (git push -u origin master)
+
+ÅĞÇ ÍÏË ÂÎÑ æÌáÈ ÇáÈíÇäÇÊ ÈÚÏ ÇáÊÚÏíá
+git pull origin master
+
+
+

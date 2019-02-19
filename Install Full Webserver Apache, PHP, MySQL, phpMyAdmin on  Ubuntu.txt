@@ -1,0 +1,82 @@
+=========================================
+ ›⁄Ì· «·√ ’«· ⁄‰ »⁄œ
+=========================================
+sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt-get install htop
+
+sudo apt-get install openssh-server
+
+ À»Ì  FTP
+sudo apt-get install vsftpd
+
+=========================================
+Install Full Webserver Apache, PHP, MySQL, phpMyAdmin on | Ubuntu
+=========================================
+
+https://www.youtube.com/watch?v=avEDRh8gGGY
+===========
+
+sudo apt-get update
+
+sudo apt-get install apache2
+
+sudo apache2ctl configtest
+·· √ﬂœ „‰ «·⁄„· Ì⁄ÿÌﬂ √ÊﬂÌÂ
+
+sudo nano /etc/apache2/apache2.conf
+‰ŸÌ› ¬Œ— «·’›Õ…:
+ServerName 127.0.0.1
+
+sudo apache2ctl configtest
+·· √ﬂœ „‰ «·⁄„· Ì⁄ÿÌﬂ √ÊﬂÌÂ
+
+sudo systemctl restart apache2
+
+«·œŒÊ· ⁄·Ï «·„ ’›Õ ·· √ﬂœ „‰ ⁄„· ’›Õ… «·Œ«œ„
+
+
+sudo chmod 777 /var/www/html
+
+sudo apt-get install mysql-server
+
+sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+
+sudo nano /etc/apache2/mods-enabled/dir.conf
+Ê÷⁄ index.php ›Ì «·»œÌ… ·Ì’»Õ ≈› —«÷Ì
+
+sudo systemctl restart apache2
+Ì„ﬂ‰ ≈Œ »«— ’›Õ… php
+
+sudo apt-get install phpmyadmin
+⁄‰œ ŸÂÊ— —”«·… ‰Œ «— „‰Â« apache2
+ÌŸÂ— —”«·… √Œ—Ï ‰Œ «— ‰⁄„
+
+sudo systemctl restart apache2
+
+sudo nano /etc/apache2/apache2.conf
+‰ŸÌ› ›Ì ¬Œ— «·’›Õ…:
+Include /etc/phpmyadmin/apache.conf
+
+sudo systemctl restart apache2
+
+›Ì «·„ ’›Õ:
+localhost/phpmyadmin
+
+
+=========================================
+«·≈ ’«· »ﬁ«⁄œ… «·»Ì«‰«  »«·Ê—ﬂ »«‰‘
+=========================================
+
+Connection Method: ==> Stanard TCP/IP over SSH
+
+›Ì «·Œ«‰«  «·√Ê·Ï √Ì »Ì «·”Ì—›— Ê«”„ «·„” Œœ„ ··”Ì—›Ì
+
+›Ì «·Œ‰«  «·À«‰Ì… «”„ «·„” Œœ„ Êﬂ·„… «·„—Ê— ·ﬁ«⁄œ… «·»Ì«‰« 
+
+
+
+
+
